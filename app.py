@@ -13,7 +13,7 @@ from evaluator import evaluate_answer
 # =====================================================
 
 st.set_page_config(
-    page_title="Edge-AI Enterprise Vault",
+    page_title="VaultMind",
     page_icon="🔒",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -177,7 +177,7 @@ with st.sidebar:
 st.markdown(
     """
     <div class="hero">
-        <div class="hero-title">🔒 Edge-AI Enterprise Vault</div>
+        <div class="hero-title">🔒 VaultMind </div>
         <div class="hero-subtitle">Offline-first Retrieval-Augmented Generation for sensitive documents</div>
         <div class="badge-row">
             <span>100% Local Inference</span>

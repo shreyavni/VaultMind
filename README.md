@@ -1,4 +1,4 @@
-# 🔒 Edge-AI Enterprise Vault
+# 🔒 VaultMind
 
 ![App Demo](./assets/demo.gif)
 
@@ -6,7 +6,7 @@
 
 ## 📌 Overview
 
-**Edge-AI Enterprise Vault** is an offline-first RAG pipeline that allows users to upload PDF documents, generate local embeddings, store them in a local vector database, and ask questions using a locally hosted LLM.
+**VaultMind** is an offline-first RAG pipeline that allows users to upload PDF documents, generate local embeddings, store them in a local vector database, and ask questions using a locally hosted LLM.
 
 All document processing, embedding generation, retrieval, inference, and evaluation happen locally. No documents, queries, embeddings, or responses are sent to external AI APIs.
 
@@ -65,7 +65,7 @@ Groundedness Evaluation
 ## 📂 Project Structure
 
 ```text
-edge-ai-vault/
+vaultmind/
 │
 ├── assets/
 │   └── demo.gif
@@ -96,8 +96,8 @@ ollama run llama3.2:3b
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/edge-ai-vault.git
-cd edge-ai-vault
+git clone https://github.com/yourusername/vaultmind.git
+cd vaultmind
 ```
 
 ### Create a Virtual Environment

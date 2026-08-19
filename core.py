@@ -102,7 +102,7 @@ def create_vector_database(pdf_path: str) -> Tuple[Chroma, int]:
         documents=documents,
         embedding=embeddings,
         persist_directory=PERSIST_DIRECTORY,
-        collection_name="edge_ai_vault",
+        collection_name="vault_mind",
     )
 
     return vector_store, len(documents)

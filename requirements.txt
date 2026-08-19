@@ -8,3 +8,5 @@ langchain-core
 pypdf
 sentence-transformers
 rapidfuzz
+torch
+torchvision

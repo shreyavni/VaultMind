@@ -1,7 +1,5 @@
 # 🔒 VaultMind
 
-![App Demo](./assets/demo.gif)
-
 > Privacy-first, offline Retrieval-Augmented Generation (RAG) for sensitive PDF documents.
 
 ## 📌 Overview
@@ -9,6 +7,10 @@
 **VaultMind** is an offline-first RAG pipeline that allows users to upload PDF documents, generate local embeddings, store them in a local vector database, and ask questions using a locally hosted LLM.
 
 All document processing, embedding generation, retrieval, inference, and evaluation happen locally. No documents, queries, embeddings, or responses are sent to external AI APIs.
+
+## 🎥 Demo
+
+[▶️ Watch VaultMind Demo](https://drive.google.com/file/d/1oIOgPGiegAhFtulAE7Q5HNfcfQrPbRK6/view?usp=sharing)
 
 ## 🚀 Features
 
